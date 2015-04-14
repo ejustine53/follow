@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="folloe_blue">#3fa2ff</color>
+    <color name="follow_text">#2e2e2e</color>
+    <color name="follow_heading">#212121</color>
+    <color name="input_text">#515151</color>
+</resources>
