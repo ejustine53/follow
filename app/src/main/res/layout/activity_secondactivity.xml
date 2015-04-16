@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.senzighe.emma.follow.secondactivity"
+    android:background="@drawable/backgroundtexture"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ff3fa2ff"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/headerlogo"
+            android:paddingLeft="3dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="3dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/info"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="15sp"
+        android:textColor="@color/follow_text"
+       android:text="@string/number_register"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Phone Number"
+        android:id="@+id/textView2"
+        android:textSize="20sp"
+        android:textIsSelectable="false"
+        android:singleLine="false"
+        android:password="false"
+        android:textColor="@color/follow_heading"
+        style="bol"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_below="@+id/info"
+        android:layout_toLeftOf="@+id/imageView3"
+        android:layout_toStartOf="@+id/imageView3"
+        android:layout_marginTop="43dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneinput"
+        android:shadowColor="#3fa2ff"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:textColor="@color/input_text"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"
+        android:inputType="phone"
+        android:singleLine="false"
+        android:background="@drawable/inputs"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/call"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/phoneinput"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/NEXT"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#ff3fa2ff"
+        android:textColor="#fffeff"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:hint="@string/NEXT" />
+
+
+</RelativeLayout>
