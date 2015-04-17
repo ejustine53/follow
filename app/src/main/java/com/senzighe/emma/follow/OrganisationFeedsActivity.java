@@ -6,19 +6,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class EventPostActivity extends ActionBarActivity {
+public class OrganisationFeedsActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_event_post);
+        setContentView(R.layout.activity_organisation_feeds);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_event_post, menu);
+        getMenuInflater().inflate(R.menu.menu_organisation_feeds, menu);
         return true;
     }
 

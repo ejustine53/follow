@@ -57,6 +57,10 @@
             android:name=".OrganisationActivity"
             android:label="@string/title_activity_organisation" >
         </activity>
+        <activity
+            android:name=".OrganisationFeedsActivity"
+            android:label="@string/title_activity_organisation_feeds" >
+        </activity>
     </application>
 
 </manifest>

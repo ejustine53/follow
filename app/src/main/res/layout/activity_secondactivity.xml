@@ -97,7 +97,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NEXT"
+        android:text="@string/next"
         android:id="@+id/NEXT"
         android:layout_below="@+id/imageView3"
         android:layout_centerHorizontal="true"
@@ -106,6 +106,5 @@
         android:textColor="#fffeff"
         android:textSize="@dimen/abc_text_size_medium_material"
         android:hint="@string/NEXT" />
-
 
 </RelativeLayout>
